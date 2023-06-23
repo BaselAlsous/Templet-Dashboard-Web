@@ -1,0 +1,59 @@
+name: templete
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Lnaguage
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  cupertino_icons: ^1.0.2
+  # Check Network in Application
+  connectivity_plus: ^3.0.3
+  # App Prvider
+  provider: ^6.0.2
+  # Shared Preferences
+  shared_preferences: ^2.0.15
+  # Cach Netwok Image
+  cached_network_image: ^3.2.0
+  # SVG Picture
+  flutter_svg: ^2.0.4
+  # Text Size
+  auto_size_text: ^3.0.0
+  # Image Picker
+  image_picker: ^0.8.7+1
+
+ 
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/Font/
+    - assets/Icons/
+    - assets/Images/
+
+
+  fonts:
+    - family: DM_Sans
+      fonts:
+        - asset: assets/Font/DM_Sans/DMSans-Regular.ttf
+          weight: 400
+        - asset: assets/Font/DM_Sans/DMSans-Medium.ttf
+          weight: 500
+        - asset: assets/Font/DM_Sans/DMSans-Bold.ttf
+          weight: 700
